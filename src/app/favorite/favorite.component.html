@@ -1,0 +1,7 @@
+<div class="glyphicon" 
+[class.glyphicon-heart] = "isFavorite"
+[class.glyphicon-heart-empty] = "!isFavorite" 
+ style="font-size: 100px;cursor: pointer;" [style.color] ="'pink'" 
+(click) = "onClickFavorite()" 
+></div>
+<label style="font-size: 100px;" >{{numberOfLikes}}</label>

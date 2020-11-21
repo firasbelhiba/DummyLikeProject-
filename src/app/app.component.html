@@ -1,0 +1,8 @@
+<app-favorite [isFavorite] = "initialize" [numberOfLikes] = "initializationLikes" (changeStatus) = "onChangeStatus()"></app-favorite>
+<div class="container">
+    <div class="row">
+        <div class="col-xs 12">
+            <label style="color: palevioletred;">{{ !isLiked ? 'you liked this post' : 'you dislike it this post' }}</label>
+        </div>
+    </div>
+</div>
